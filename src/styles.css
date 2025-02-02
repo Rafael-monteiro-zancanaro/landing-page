@@ -1,1 +1,135 @@
 /* You can add global styles to this file, and also import other style files */
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+* {
+  margin: 0;
+}
+
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-gray-light: #f5f5f7;
+    --color-gray-medium: #d2d2d7;
+    --color-gray-dark: #86868b;
+    --color-blue: #007aff; /* Cor primária para botões e links */
+    --color-blue-hover: #ffffff; /* Cor de hover */
+    --color-text-hover: #007aff;
+  }
+
+:root {
+  --font-family: 'Inter', sans-serif;
+  --font-size-base: 16px;
+  --font-size-small: 14px;
+  --font-size-large: 20px;
+  --font-size-xlarge: 24px;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 600;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: var(--color-blue-hover);
+    color: var(--color-text-hover);
+  }
+  
+  .button-secondary {
+    background-color: transparent;
+    color: var(--color-blue);
+    border: 2px solid var(--color-blue);
+  }
+  
+  .button-secondary:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+  }
+
+  .header {
+    background-color: var(--color-white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-regular);
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: var(--color-blue);
+  }
+
+  a {
+    color: var(--color-blue);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: var(--color-blue-hover);
+  }
+
+  .section {
+    padding: 80px 20px;
+    background-color: var(--color-white);
+  }
+  
+  .section-dark {
+    background-color: var(--color-gray-light);
+  }
+  
+  .section-title {
+    font-size: var(--font-size-xlarge);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
