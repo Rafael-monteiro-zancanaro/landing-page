@@ -1,0 +1,39 @@
+
+[
+    {
+        "name": "Python",
+        "description": "",
+        "githubLink": "",
+        "image": "assets/img/python.png"
+    },
+    {
+        "name": "C",
+        "description": "Fiz alguns projetos de estruturas de dados e de baixo nível. É uma linguagem que gosto bastante.",
+        "githubLink": "https://github.com/Rafael-monteiro-zancanaro/c-data-structures",
+        "image": "assets/img/c.png"
+    },
+    {
+        "name": "C++",
+        "description": "",
+        "githubLink": "",
+        "image": "assets/img/cpp.png"
+    },
+    {
+        "name": "Java",
+        "description": "",
+        "githubLink": "",
+        "image": "assets/img/java.png"
+    },
+    {
+        "name": "JavaScript",
+        "description": "",
+        "githubLink": "",
+        "image": "assets/img/javascript.png"
+    },
+    {
+        "name": "Typescript",
+        "description": "",
+        "githubLink": "",
+        "image": "assets/img/typescript.png"
+    }
+]

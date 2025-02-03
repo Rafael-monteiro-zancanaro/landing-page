@@ -1,6 +1,6 @@
 import { Component, OnInit, signal, computed } from '@angular/core';
 import { Language } from '../../pages/about/language';
-import languagesJSON from '../../assets/languages.json';
+import languagesJSON from './assets/json/languages.json';
 
 @Component({
   selector: 'app-carrousel',
