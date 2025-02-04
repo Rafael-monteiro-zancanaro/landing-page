@@ -2,38 +2,59 @@
 [
     {
         "name": "Python",
-        "description": "",
-        "githubLink": "",
+        "description": "Tenho alguns projetos que fiz durante a faculdade e outros que faço para automatizar meu workflow.",
+        "externalLinks": [
+            {
+                "link": "https://github.com/Rafael-monteiro-zancanaro/processamento-linguagem-natural",
+                "site": "github",
+                "name": "Processamento Linguagem Natural"
+            }
+        ],
         "image": "assets/img/python.png"
     },
     {
         "name": "C",
         "description": "Fiz alguns projetos de estruturas de dados e de baixo nível. É uma linguagem que gosto bastante.",
-        "githubLink": "https://github.com/Rafael-monteiro-zancanaro/c-data-structures",
+        "externalLinks": [
+            {
+                "link": "https://github.com/Rafael-monteiro-zancanaro/c-data-structures",
+                "site": "github",
+                "name": "C data structures"
+            },
+            {
+                "link": "https://github.com/Rafael-monteiro-zancanaro/infinite-monkey",
+                "site": "github",
+                "name": "Infinite Monkey"
+            }
+        ],
         "image": "assets/img/c.png"
     },
     {
-        "name": "C++",
-        "description": "",
-        "githubLink": "",
-        "image": "assets/img/cpp.png"
+        "name": "Java",
+        "description": "É a linguagem na qual eu possuo mais experiência, trabalho a 5 anos com a linguagem pessoal e profissionalmente.",
+        "externalLinks": [
+        ],
+        "image": "assets/img/java.png"
     },
     {
-        "name": "Java",
-        "description": "",
-        "githubLink": "",
-        "image": "assets/img/java.png"
+        "name": "C++",
+        "description": "Fiz alguns projetos da faculdade também. Gosto bastante da linguagem, por mais que seja complexa.",
+        "externalLinks": [
+        ],
+        "image": "assets/img/cpp.png"
     },
     {
         "name": "JavaScript",
         "description": "",
-        "githubLink": "",
+        "externalLinks": [
+        ],
         "image": "assets/img/javascript.png"
     },
     {
         "name": "Typescript",
         "description": "",
-        "githubLink": "",
+        "externalLinks": [
+        ],
         "image": "assets/img/typescript.png"
     }
 ]

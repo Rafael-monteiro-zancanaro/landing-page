@@ -1,3 +1,5 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
 /* 1. Cores */
 :root {
   --color-white: #ffffff;
@@ -133,4 +135,9 @@ a:hover {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+}
+
+.section-content img {
+  width: 600px;
+  border-radius: 9pt;
 }
